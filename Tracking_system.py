@@ -5,7 +5,7 @@ cmd for installing openCV: pip install opencv-python
 '''
 import cv2
 #importing video form the directory
-video = cv2.VideoCapture("Pedestrians and cars.mp4")
+video = cv2.VideoCapture("Pedestrians and cars.mp4")# Give the file name that you have in the directory
 # Giving the trained cars data to cascade classifier
 trained_car_data = cv2.CascadeClassifier('car_detector.xml')
 # Giving the trained pedestrains data to cascade calssifier
