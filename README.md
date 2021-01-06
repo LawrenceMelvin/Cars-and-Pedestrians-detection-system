@@ -5,3 +5,5 @@ The Basic concept of this project is:
 2. Then we are changing the colored video to a black and white video(optional).
 3. Using the opencv model and the per-trained cars and pedestrians data we can identity the cars and pedestrians.
 4. Draw a Rectangle around the identified objects(for human view).
+
+I did not attach the video or mp4. You can use any video just use the name of the video in cv2.VideoCapture('filename')
